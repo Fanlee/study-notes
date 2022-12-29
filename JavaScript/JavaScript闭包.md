@@ -1,6 +1,6 @@
 
 
-# Javascript闭包
+# JavaScript闭包
 
 闭包是指有权访问另一个函数作用域中变量的函数，闭包可以作为一个参数传入函数中，或者作为一个函数返回值进行返回
 
@@ -10,9 +10,7 @@ function fn1(fn) {
 }
 
 function fn2() {
-	return function fn() {
-	
-	}
+	return function fn() {}
 }
 ```
 
