@@ -1,6 +1,6 @@
 # react源码架构
 
-react核心可以用UI = fn(state)来表示，函数式编程风格， 可以拆成以下两部分来表示
+react核心可以用UI = fn(state)来表示，函数式编程风格， 可以拆成以下两部分来表示。
 
 ```javascript
 const state = reconcile(update)
