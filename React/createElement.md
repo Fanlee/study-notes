@@ -51,6 +51,7 @@
   
 
 ```javascript
+// ReactElement.js
 function createElement(type, config, children) {
   var propName; 
   // 标签上的属性集合
@@ -122,7 +123,10 @@ function createElement(type, config, children) {
 }
 ```
 
+
+
 ```javascript
+// ReactElement.js
 const ReactElement = function(type, key, ref, self, source, owner, props) {
   const element = {
     // 用于表示是否为 ReactElement
