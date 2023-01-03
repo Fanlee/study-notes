@@ -1,4 +1,4 @@
-# createElement
+# React.createElement
 
 主要接收三个参数：
 
