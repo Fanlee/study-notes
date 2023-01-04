@@ -22,8 +22,8 @@ concurrent Mode是react未来的模式，它用时间片调度实现了异步可
 
   ``` mermaid
   graph TB;
-      FiberRootNode-->|current|rootFiber;
-      rootFiber --> |stateNode|FiberRootNode
+  FiberRootNode-->|current|rootFiber;
+  rootFiber --> |stateNode|FiberRootNode;
   ```
 
   
