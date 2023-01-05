@@ -1,4 +1,4 @@
-# ReactDOM**.**render
+# ReactDOM.render
 
 react有3种模式进入主体函数的入口：
 
